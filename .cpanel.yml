@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/carterbl/public_html/apps/dubchess/api
+    - /bin/cp -R . $DEPLOYPATH
